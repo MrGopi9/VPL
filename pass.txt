@@ -1,0 +1,42 @@
+Problem Statement –
+Create a password. There are rules so that the password gets complex and none can predict the password for another. So he gave some rules like:
+
+At least one numeric digit
+At Least one Small/Lowercase Letter
+At Least one Capital/Uppercase Letter
+At Least one special letter
+Must not have space 
+Must not have slash (/)
+At least 8 characters
+If someone inputs an invalid password, the code prints: “Invalid password”.
+
+Otherwise, it prints: “password valid”.
+
+Input Format:
+
+A line with a given string as a password
+
+Output Format:
+
+If someone inputs an invalid password, the code prints: “Invalid password”.
+Otherwise, it prints: “password valid”, without the quotation marks.
+Constraints:
+
+Length of the given string >=8
+Sample input 1: 
+
+vectoR09
+
+Sample output 1: 
+
+password valid
+
+Sample input 2: 
+
+jjnaskpk
+
+Sample output 2: 
+
+Invalid password, try again
+
+
